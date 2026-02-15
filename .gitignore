@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+*.log
+*.sqlite
+*.db
+
+# Python tooling
+.python-version
+.ipynb_checkpoints/
+
+# Backend artifacts
+backend/saved_models/
+
+# Node/Vite
+node_modules/
+dist/
+.vite/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
